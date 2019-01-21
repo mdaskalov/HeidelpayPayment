@@ -16,13 +16,26 @@
  * limitations under the License.
  *
  */
- 
-using System;
+
+ using System;
 
 namespace HeidelpayPayment
 {
-    public abstract class PaymentType
+    public class Card : PaymentType
     {
-        public string Id { get; }
+        public override string Id { get; }
+        public override string TypeUrl { get; }
+
+        public string Number;
+        public string ExpiryDate;
+        public string CVC;
+
+        public Card(string number, string expiryDate, string cvc = null)
+        {
+            Number = number;
+            ExpiryDate = expiryDate;
+            if (cvc != null)
+                CVC = cvc;
+        }
     }
 }
