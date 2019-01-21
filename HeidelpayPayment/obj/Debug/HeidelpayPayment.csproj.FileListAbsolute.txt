@@ -1,6 +1,0 @@
-D:\repos\HeidelpayPayment\HeidelpayPayment\bin\Debug\HeidelpayPayment.dll
-D:\repos\HeidelpayPayment\HeidelpayPayment\bin\Debug\HeidelpayPayment.pdb
-D:\repos\HeidelpayPayment\HeidelpayPayment\obj\Debug\HeidelpayPayment.csprojAssemblyReference.cache
-D:\repos\HeidelpayPayment\HeidelpayPayment\obj\Debug\HeidelpayPayment.csproj.CoreCompileInputs.cache
-D:\repos\HeidelpayPayment\HeidelpayPayment\obj\Debug\HeidelpayPayment.dll
-D:\repos\HeidelpayPayment\HeidelpayPayment\obj\Debug\HeidelpayPayment.pdb
