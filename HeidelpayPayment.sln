@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeidelpayPayment", "HeidelpayPayment\HeidelpayPayment.csproj", "{9EF6653F-0D11-4289-AFE9-DA39F32BFD44}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{20CAE19F-E821-43AB-BF1F-073C7F6C9AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeidelpayPayment.Tests.Integration", "HeidelpayPayment.Tests.Integration\HeidelpayPayment.Tests.Integration.csproj", "{92CD8736-22E8-4B3D-92BD-6BEEB18AE708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{9EF6653F-0D11-4289-AFE9-DA39F32BFD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EF6653F-0D11-4289-AFE9-DA39F32BFD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EF6653F-0D11-4289-AFE9-DA39F32BFD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CD8736-22E8-4B3D-92BD-6BEEB18AE708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CD8736-22E8-4B3D-92BD-6BEEB18AE708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CD8736-22E8-4B3D-92BD-6BEEB18AE708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CD8736-22E8-4B3D-92BD-6BEEB18AE708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92CD8736-22E8-4B3D-92BD-6BEEB18AE708} = {20CAE19F-E821-43AB-BF1F-073C7F6C9AC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4352B43-EF96-4B30-85C7-67C7936543F4}
